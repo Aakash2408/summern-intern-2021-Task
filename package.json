@@ -13,6 +13,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "bootstrap": "^4.5.3",
+    "netlify-cli": "^2.71.0",
     "node-sass": "^4.14.1",
     "react": "^17.0.1",
     "react-beautiful-dnd": "^13.0.0",
