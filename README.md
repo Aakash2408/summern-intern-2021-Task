@@ -1,3 +1,6 @@
+###The Shoppies -[DEMO](https://aakash2408.github.io/summern-intern-2021-Task/)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
