@@ -1,0 +1,33 @@
+.header {
+    &__bar {
+        background-color: rgb(18, 18, 18);
+        height: 5rem;
+        box-shadow: 0 4px 2px -2px gray;
+        letter-spacing: -2px;
+        position: relative;
+    }
+
+    &__text {
+        background-color: #f56e30;
+        display: inline-block;
+        text-transform: uppercase;
+        border-radius: 5px;
+        font-weight: 900;
+        position: absolute;
+        top: 25%;
+        left: 2rem;
+        transform: translateY(-50%);
+        padding: 0.25rem
+    }
+}
+
+@media (max-width: 600px) {
+
+    .header__text {
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 2rem;
+        white-space: nowrap;
+    }
+
+}

@@ -1,0 +1,20 @@
+@import '../../variables';
+
+.banner {
+    background-color: $color-black;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: $large-header-font-size;
+    color: $color-white;
+    padding: 1rem;
+}
+
+@media (max-width: 600px) {
+    .banner {
+        z-index: 100;
+        font-size: 1rem;
+    }
+}
