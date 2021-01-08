@@ -1,13 +1,13 @@
-@import '../../../variables';
+@import '../../variables';
 
-.section-result {
-    background-color: #ff5e57;
+
+.section-nomination {
+    background-color: $color-black;
     height: 85%;
     border-radius: 10px;
-    position: relative;
 }
 
-.result {
+.nomination {
     &__header {
         padding: 1rem;
         color: $color-white;
@@ -27,26 +27,18 @@
 
     &__body {
         overflow-y: scroll;
-        height: 80%;
+        height: 80%
     }
 }
 
-::-webkit-scrollbar {
-    -webkit-appearance: none;
-    width: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-    border-radius: 5px;
-    background-color: rgba(255, 255, 255, .5);
-    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
-}
-
 @media (max-width: 600px) {
+    .section-nomination {
+        margin-bottom: 4rem;
+    }
 
-    .result__body {
-        overflow-y: unset;
+    .nomination__body {
         padding-bottom: 2rem;
+        overflow-y: unset;
     }
 
 }

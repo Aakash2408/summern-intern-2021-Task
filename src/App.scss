@@ -23,27 +23,21 @@
   .container {
     width: 750px;
   }
-  .search-form{
-    width:750px;
-  }
+
 }
 
 @media (min-width: 992px) {
   .container {
     width: 970px;
   }
-  .search-form{
-    width:970px;
-  }
+  
 }
 
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
   }
-  .search-form{
-    width:1170px;
-  }
+ 
 }
 
 
@@ -71,9 +65,7 @@
 }
 
 @media (max-width: 600px) {
-  .search-form{
-    width:750px;
-  }
+ 
 
   .parent {
     display: grid;

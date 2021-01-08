@@ -1,0 +1,74 @@
+@import '../../variables';
+
+.nomination {
+    &__item {
+        position: relative;
+        padding: 1.5rem;
+        margin-bottom: .5rem;
+        background: #ff5e57;
+
+        &:first-of-type {
+            .nomination__text {
+                &::before {
+                    content: "1. ";
+                }
+                
+            }
+        }
+
+        &:nth-of-type(2) {
+            .nomination__text {
+                &::before {
+                    content: "2. ";
+                }
+            }
+        }
+
+        &:nth-of-type(3) {
+            .nomination__text {
+                &::before {
+                    content: "3. ";
+                }
+            }
+        }
+
+        &:nth-of-type(4) {
+            .nomination__text {
+                &::before {
+                    content: "4. ";
+                }
+            }
+        }
+
+        &:nth-of-type(5) {
+            .nomination__text {
+                &::before {
+                    content: "5. ";
+                }
+            }
+        }
+    }
+
+
+    &__text {
+        padding-left: 3rem;
+        width: 70%;
+        text-decoration: none;
+    }
+
+    &__picture {
+        position: absolute;
+        height: 100%;
+        width: 4rem;
+        top: 0;
+        left: 0;
+        bottom: 0;
+    }
+
+    &__button--center {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
