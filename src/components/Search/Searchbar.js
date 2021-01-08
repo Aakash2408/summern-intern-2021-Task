@@ -6,7 +6,7 @@ import { faSearch } from "@fortawesome/free-solid-svg-icons";
 function SearchBar({ changeSearchValue }) {
   return (
     <form className="search-form">
-<div class="container_box">
+<div class="containerbox">
       <input type="text" id="box"  type="text"
         id="movie"
         name="movie" placeholder="Search any Movie" class="search__box"  onChange={(event) => changeSearchValue(event.target.value)}/>

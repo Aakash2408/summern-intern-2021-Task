@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import Header from "./components/Header/Header";
 import Banner from "./components/Banner/Banner";
 import SearchBar from "./components/Search/Searchbar";
+import SearchResultList from "./components/Search/SearchResults/SearchResultList";
 import './App.css';
 
 function App() {
